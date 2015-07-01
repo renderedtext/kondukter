@@ -14,7 +14,11 @@ describe Kondukter do
   end
 
   def fixture
-    <<EOF
+<<EOF
+      Version : 5.0.6
+      Date    : 2015-07-01 14:16:28 +0000
+      Instance: ndBghJMB (nginx/1.6.2 Phusion_Passenger/5.0.6)
+
       <?xml version="1.0" encoding="iso8859-1" ?>
       <info version="3">
           <passenger_version>5.0.6</passenger_version>
@@ -105,7 +109,7 @@ describe Kondukter do
               </supergroup>
           </supergroups>
       </info>
-      EOF
+EOF
   end
 
 end
