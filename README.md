@@ -1,5 +1,7 @@
 # Kondukter
 
+[![Build Status](https://semaphoreci.com/api/v1/projects/10cddb3c-eace-4b46-a2be-cd32cabe6e7b/471382/badge.svg)](https://semaphoreci.com/renderedtext/kondukter)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kondukter`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
