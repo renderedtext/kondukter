@@ -17,7 +17,7 @@ module Kondukter
 
     def fetch_status(passenger_data)
       if passenger_data == nil
-        Nokogiri::XML.parse `passenger-status --show=xml`
+        Nokogiri::XML.parse `sudo passenger-status --show=xml`
       else
         Nokogiri::XML.parse passenger_data
       end
